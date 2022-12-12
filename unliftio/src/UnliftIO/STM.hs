@@ -19,6 +19,7 @@ module UnliftIO.STM
   , STM.writeTVar
   , STM.modifyTVar
   , STM.modifyTVar'
+  , STM.stateTVar
   , STM.swapTVar
   , registerDelay
   , mkWeakTVar
@@ -32,6 +33,7 @@ module UnliftIO.STM
   , STM.takeTMVar
   , STM.putTMVar
   , STM.readTMVar
+  , STM.writeTMVar
   , STM.tryReadTMVar
   , STM.swapTMVar
   , STM.tryTakeTMVar
